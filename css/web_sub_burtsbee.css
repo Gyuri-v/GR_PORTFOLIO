@@ -1,0 +1,151 @@
+/* WEB SUB 공통사항 */
+h1{ height: 100px; line-height: 100px; font-size: 36px; font-weight: bold; color: black; letter-spacing: 5px; text-align: center; }
+h3{ border-bottom: 5px solid black; font-size: 18px;  font-weight: bold; line-height: 2; letter-spacing: 1px; text-align: center; }
+p.txt_con{ padding: 50px 0; clear: both; font-size: 16px;  line-height: 2; text-align: center; }
+span{ font-weight: bold; }
+strong{ font-weight: bold; line-height: 36px; }
+article.content{ max-width: 960px;  margin: 0 auto; padding: 100px 50px; box-sizing: border-box; }
+div.blank { height: 150px; }
+
+/* BRANDNAME */
+section.brandname{ width: 100%; height: 100vh; background-image: url(../img/web_sub/burts_Bee/ingredient_honey.png); background-size: cover; background-attachment: fixed; background-position: bottom; display: table;}
+section.brandname div.brandname_txt{ width: 100%; height: 100%; background-color: rgb(0,0,0,0.2); text-align: center; display: table-cell; vertical-align: middle;}
+section.brandname div.brandname_txt h1{ font-size: 48px;  font-weight: bold; letter-spacing: 5px; color: white;}
+section.brandname div.brandname_txt h4{ font-size: 24px;  font-weight: bold; letter-spacing: 5px; color: white;}
+section.brandname div.brandname_txt p{ font-size: 16px;  line-height: 40px; letter-spacing: 5px; color: white;}
+
+
+
+/* PROJECT DETAIL */
+/*project_detail_pc*/
+section.project_detail{ width: 100%; height: auto; background-color: white; }
+section.project_detail article.content div.pc_moniter{ width: 100%; height: 500px; background-color: #f4f4f4; border-radius: 25px; padding: 40px;  box-sizing: border-box; }
+section.project_detail article.content div.pc_moniter div.pc_moniter_web{width: 100%; height: 100%; background-color: black; overflow: scroll; position: relative;}
+section.project_detail article.content div.pc_moniter div.pc_moniter_web img{ position: absolute; }
+
+section.project_detail article.content div.pc_bottom img{ width: 50%; margin: 0 auto; margin-bottom: 100px; display: block; }
+
+/*project_detail_txt*/
+section.project_detail article.content div.pro_det_txt_con{ width: 33.33%; height: 100px; float: left; }
+section.project_detail article.content div.pro_det_txt_con h3{ margin: 0 25px; }
+section.project_detail article.content div.pro_det_txt_con div p{ font-size: 16px;  line-height: 3; margin: 0 25px; text-align: center; }
+
+div.web_link{ text-align:center; }
+div.web_link a{ width: 200px; height: 50px; display: inline-block; background-color: #FCBE44; color: white; text-align: center; line-height: 50px; }
+div.web_link a:hover{ background-color: #d1202f; }
+div.web_responsive{ padding-top: 100px; }
+
+
+
+/*project_visual*/
+section.visual{ width: 100%; height: auto; }
+section.visual article.content{ padding-bottom: 50px; }
+section.visual div.visual_wrap>div{ padding-bottom: 100px; }
+
+/* project_visual_ color */
+section.visual div.color ul{ text-align: center; }
+section.visual div.color ul li{ padding: 50px 50px 0; display: inline-block; font-weight: bold; text-align: center; line-height: 50px; }
+section.visual div.color ul li div{ width: 100px; height: 100px; }
+
+/* project_visual_ typo */
+section.visual div.typo div{ width: 50%; height: 300px; float: left; }
+section.visual div.typo div p.txt_con{ padding-bottom: 10px; font-size: 18px; font-weight: bold; }
+section.visual div.typo div p{ text-align: center; }
+section.visual div.typo div p.font_korean{ font-family: 'S-CoreDream-3Light', sans-serif; }
+section.visual div.typo div p.font_english{ font-family: 'AritaSans-Thin', sans-serif; letter-spacing: 3px; }
+
+/* project_visual_ illust & image */
+section.visual div.visual_img{ text-align: center; }
+section.visual div.visual_img img{ width: 80%; display: inline-block; }
+section.visual p.visual_bottom{ padding-bottom: 150px; }
+
+
+
+/* porject_change */
+section.change{ width: 100%; background-image: url(../img/about_background.png); box-sizing: border-box; }
+section.change p.txt_con{ padding: 20px 0; }
+section.change p.txt_con a{ display: inline-block; height: 50px; line-height: 50px; }
+section.change p.txt_con a:hover{ color: darkred; }
+section.change p.txt_con a:hover .bf_web_img{ margin-left: 15px; }
+
+section.change div.change_img{ width: 50%; float: left; padding: 10px; box-sizing: border-box; font-size: 20px; font-weight: bold; line-height: 50px; text-align: center; }
+section.change div.change_img img{ width: 100%; }
+
+
+
+
+/* mainpage */
+section.mainpage{ width: 100%; background-image: url(../img/about_background.png); box-sizing: border-box; }
+section.mainpage article.content div.sub_wrap_half{ width: 50%; float: left; }
+section.mainpage article.content div.sub_wrap div.sub_img_wrap{ width: 50%; float: left; padding: 10px; box-sizing: border-box; position: relative; font-size: 0; }
+section.mainpage article.content div.sub_wrap_half div.sub_img_wrap { width: 100%; }
+section.mainpage article.content div.sub_wrap div.sub_img_wrap>img{ width: 100%;  }
+
+section.mainpage div.member{ width: 300px; height: 80px; padding: 10px 0; }
+section.mainpage div.member img{ height: 100%; float: left; }
+section.mainpage div.member div.mem_txt{ width: 200px; height: 80px; float: left; padding: 20px 0;  box-sizing: border-box; margin-left: 10px; font-size: 16px; }
+
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap{ width: 100%;height: 100%; position: absolute; top: 0; left: 0; padding: 10px; box-sizing: border-box; opacity: 0; transition: opacity 0.5s; }
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap:hover{ opacity: 100%; }
+
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap div.sub_hover{ width: 100%; height: 100%; background-color: darkgray; padding:  30px 20px; box-sizing: border-box; }
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap div.s_h_g{ background-color: pink; }
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap div.s_h_g h3{ border-bottom: 5px solid #d64354; }
+section.mainpage article.content>p{ line-height: 3; font-size: 16px; }
+
+.click{ font-size: 14px; color: darkred; display: none; }
+
+
+
+/* 반응형 */
+@media screen and (max-width:768px){
+    h1{ font-size: 24px; }
+    h3{ font-size: 16px; }
+    p.txt_con{ font-size: 14px; }
+    article.content{ padding: 100px 20px; }
+    
+    section.brandname{ background-attachment: inherit; }
+    
+    section.project_detail article.content div.pc_moniter { height: 400px; padding: 30px; }
+    section.project_detail article.content div p{ font-size: 14px; }
+    
+    section.visual div.color ul li{ font-size: 14px;  padding: 50px 80px 0; }
+    section.visual div.color ul li div{ margin: 0 auto; }
+    section.visual div.typo div{ width: 100%; height: 200px; float: none; }
+    section.visual div.typo div.typo_kor{ height: 170px; }
+    section.visual div.typo div p.txt_con { padding-top: 20px; }
+    section.visual div.illust_img img{ width: 100%; }
+    
+    section.mainpage article.content div.sub_wrap_half{ width: 100%; }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap{ width: 100%; float: none; }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap{ opacity: 100%; display: none; }
+    
+    div.member div.mem_txt{ font-size: 14px; }
+    .click{ display: inline-block; }
+}
+
+
+@media screen and (max-width:655px){
+    section.brandname div.brandname_txt h1{ font-size: 24px; }
+    section.brandname div.brandname_txt h4 { font-size: 16px; }
+    section.brandname div.brandname_txt p { font-size: 14px; }
+    
+    section.project_detail article.content div.pc_moniter { height: 300px; padding: 25px; }
+    section.project_detail article.content div.pro_det_txt_con { width: 60%; height: 100px; float: none; margin: 0 auto; }
+    
+    section.visual div.logo div { padding: 20px; }
+    section.visual div.color ul li{ width: 50%;  float: left; padding: 20px 0 0 0 ; box-sizing: border-box;    }
+}
+
+
+@media screen and (max-width: 480px){
+    article.content{ padding: 50px 10px; }
+    
+    section.project_detail article.content div.pc_moniter { height: 220px; padding: 20px; }
+    section.project_detail article.content div.pro_det_txt_con { width: 80%; }
+    
+    section.visual div.logo div { padding: 10px; }
+    section.change div.change_img { width: 100%; }
+    
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover { padding: 10px 20px; }
+}

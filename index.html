@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박규리포트폴리오</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/tap_icon_gyuri.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+    
+<body>
+   <div class="workimg" id="modal">
+        <div class="modal_wrap">
+            <a class="workimg_prev" onclick="plusSlides(-1)">
+                <img src="img/icon_arrow_pink.png" height="46px">
+            </a>
+            <a class="workimg_next" onclick="plusSlides(1)">
+                <img src="img/icon_arrow_pink.png" height="46px">
+            </a>
+            <div class="workimg_close" onclick="closeModal()">&times;</div>
+            <div class="workimg_content_wrap">
+
+                <div class="workimg_content">
+                    <h6>'잔나비 컴백포스터' 리디자인</h6>
+                    <img src="img/work/work6.PNG">
+                    <p>아티스트 '잔나비'의 컴백포스터를<br> 레트로 감성을 살려 리디자인 했습니다.</p>
+                </div>
+                <div class="workimg_content w_c_hori">
+                    <h6>'슈퍼 가습기' 포스터 제작</h6>
+                    <img src="img/work/work7.PNG">
+                    <p>매직 슈퍼 가습기의 홍포 포스터를 제작했습니다.</p>
+                </div>
+                <div class="workimg_content">
+                   <h6>'GET OUT 영화포스터' 제작</h6>
+                    <img src="img/work/work4.PNG">
+                    <p>영화 GET OUT의 영화포스터를 리디자인 했습니다.</p>
+                </div>
+                <div class="workimg_content">
+                   <h6>'미비포유' 영화포스터 제작</h6>
+                    <img src="img/work/work2.PNG">
+                    <p>영화 '미비포유'의 영화포스터를 리디자인 했습니다.</p>
+                </div>
+                <div class="workimg_content">
+                   <h6>'2020 신년카드' 이미지 제작</h6>
+                    <img src="img/work/work9.PNG">
+                    <p>2020년 쥐띠의 해를 맞이하여, 신년카드 이미지물을 제작했습니다.</p> 
+                </div>
+                <div class="workimg_content w_c_hori">
+                   <h6>'비즈니스 &amp; 디자인 일러스트' 제작</h6>
+                    <img src="img/work/work3.PNG">
+                    <p>비즈니스 &amp; 디자인 일러스트 이미지를 제작했습니다.</p>
+                </div>
+                <div class="workimg_content">
+                   <h6>'봄 일러스트 이미지' 제작</h6>
+                    <img src="img/work/work5.PNG">
+                    <p>봄 일러스트 이미지를 제작했습니다.</p>
+                </div>
+                <div class="workimg_content w_c_hori">
+                   <h6>'연말 파티 이벤트' 페이지 제작</h6>
+                    <img src="img/work/work1.PNG">
+                    <p>가상의 브랜드를 지정하여 연말파티 이벤트의 이벤트페이지, 배너, 정사각 이미지를 디자인하였습니다.</p>
+                </div>
+                <div class="workimg_content w_c_hori">
+                   <h6>'삼성 스마트 에어컨' 포스터 제작</h6>
+                    <img src="img/work/work8.PNG">
+                    <p>삼성브랜드의 스마트 에어컨 홍포 포스터를 제작했습니다.</p>
+                </div>
+                
+                <p id="caption"></p>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span> 
+                  <span class="dot" onclick="currentSlide(8)"></span>
+                </div>
+           </div>
+       </div>
+    </div>
+    
+    
+    <!--*header*-->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo7.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#main">MAIN</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="nav_btn">
+            <div class="nav_btn_box">
+                <div class="nav_btn_line1"></div>
+                <div class="nav_btn_line2"></div>
+                <div class="nav_btn_line3"></div>
+            </div>
+        </div>
+        <div class="nav_con">
+           <div class="nav_con_inner">
+                <div class="close_wrap">
+                    <div class="close">
+                        <div class="close_line1"></div>
+                        <div class="close_line2"></div>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#main">MAIN</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <!--*main*-->
+    <main>
+        
+    <!--main slider-->
+    <div class="main_wrap" id="main">
+          <div class="slider_box">
+           <section class="main main_slider1">
+                   <article class="main_img">
+                        <div class="img">
+                            <img src="img/ilu_gyuri.png" class="grimg">
+                        </div>
+                    </article>
+                    <article class="main_txt">
+                        <div>
+                            <h1>GYURI<br>PORTFOLIO</h1>
+                            <p>안녕하세요.<br>박규리 포트폴리오 입니다.</p>
+                        </div>
+                    </article>
+                    <div class="s_circle1"></div>
+                    <div class="s_circle2"></div>
+                    <div class="s_circle3"></div>
+           </section>
+           <section class="main main_slider2">
+                    <article class="main_img">
+                        <div class="img">
+                            <img src="img/slide2_img.png" class="slide2_img">
+                        </div>    
+                    </article>
+                    <article class="main_txt">
+                        <div>
+                            <h1>UX/UI<br>반응형 페이지 제작</h1>
+                            <p>다양한 디바이스 환경에 대응하여<br>
+                                사용하기 편한<br>
+                            사이트를 만듭니다.</p>
+                        </div>
+                    </article>
+                    <div class="s_circle1"></div>
+                    <div class="s_circle2"></div>
+                    <div class="s_circle3"></div>
+            </section>
+        </div>
+        <div class="scroll">
+           <img src="img/icon_scroll_arrow.png">
+        </div>
+    </div>
+    
+    <div class="blank">
+        <div class="arrow">
+            <img src="img/icon_arrow.PNG" class="arrow">
+        </div>
+    </div>
+        
+    <!--about-->
+    <div class="about_back">
+    <section class="about" id="about">
+        <h2 class="titlename fadein1">ABOUT</h2>
+        <article class="letter fadein1">
+            <div class="letter_left">
+                <img src="img/icon_mark_left.PNG">
+            </div>
+            <p>
+            꾸준한 배움으로 <span>날마다 성장하는 박규리</span>입니다.<br>
+            저의 가장 큰 장점은 배움을 게을리 하지 않는 것입니다.<br>
+            지속적인 트렌드 분석과 다양한 시도로 <span>늘 최고의 결과를 만들어 내겠습니다.</span>
+            </p>
+            <div class="letter_right">
+                <img src="img/icon_mark_right.PNG">
+            <div class="circle"></div>
+            </div>
+        </article>
+        <article class="profil fadein1">
+            <h3 class="subtitle">PROFIL</h3>
+            <div class="about_60">
+                <ul>
+                    <li>
+                        <h4>박규리</h4>
+                        <p>PARK GYURI</p>
+                    </li>
+                    <li>
+                        <h4>DATE OF BIRTH</h4>
+                        <p>1996.09.03</p>
+                    </li>
+                    <li>
+                        <h4>CONTACT</h4>
+                        <p>CALL <span>//</span> 010-2126-2579<br>
+                            MAIL <span>//</span> fnffkdll@naver.com
+                        </p>
+                    </li>
+                    <li>
+                        <h4>HOBBY</h4>
+                        <div>
+                            <div>
+                                <img src="img/icon_h_youtube.png">
+                                <p>영상제작</p>
+                            </div>
+                            <div>
+                                <img src="img/icon_h_book.png">
+                                <p>독서</p>
+                            </div>
+                            <div>
+                                <img src="img/icon_h_dairy.png">
+                                <p>다이어리</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="about_40 profil_img">
+                <div class="circle_1"></div>
+                <div class="profil_img_my"></div>
+                <div class="circle_2"></div>
+            </div>
+        </article>
+        <article class="history fadein1">
+            <h3 class="subtitle">HISTORY</h3>
+            <div class="about_40"></div>
+            <div class="about_60">
+                <ul>
+                    <li>
+                        <h4>배화여자대학교 비서행정과 전공</h4>
+                        <p>2015.03 - 2017.02</p>
+                    </li>
+                    <li>
+                        <h4>롯데백화점 노원점 사무직 근무</h4>
+                        <p>2017.02 - 2019.01</p>
+                    </li>
+                    <li>
+                        <h4>그린컴퓨터아카데미<br>UX/UI 디자인 과정 780시간 수강</h4>
+                        <p>2019.10 - 2020.02</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <article class="skill fadein1">
+            <h3 class="subtitle">SKILL</h3>
+            <div class="skillbar">
+                <div class="ps">
+                    <div class="ps_c circle">
+                        <strong></strong>
+                    </div>
+                    <p>포토샵<br>90%</p>
+                </div>
+                <div class="ai">
+                    <div class="ai_c circle">
+                        <strong></strong>
+                    </div>
+                    <p>일러스트<br>90%</p>
+                </div>
+                <div class="html">
+                    <div class="html_c circle">
+                        <strong></strong>
+                    </div>
+                    <p>Html &amp; Css<br>90%</p>
+                </div>
+                <div class="js">
+                    <div class="js_c circle">
+                        <strong></strong>
+                    </div>
+                    <p>Js &amp; Jqury<br>70%</p>
+                </div>
+            </div>
+        <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+        </article>
+        <div class="blank">
+            <div class="arrow">
+                <img src="img/icon_arrow.PNG">
+            </div>
+        </div>
+    </section>
+    </div>
+        
+    <!--work-->
+    <section class="work" id="work">
+        <h2 class="titlename fadein2">ART WORK</h2>
+        <article class="fadein2">
+            <div class="work_box">
+                <div class="wrap_work" onclick="openModal();currentSlide(1)">
+                    <img src="img/work/work6.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                            <div class="work_txt w_t_1">
+                                <h6>'잔나비 컴백포스터' 리디자인</h6>
+                                <p>아티스트 '잔나비'의 컴백포스터를<br> 레트로 감성을 살려 리디자인 했습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(2)">
+                    <img src="img/work/work7.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_2">
+                                <h6>'슈퍼 가습기' 포스터 제작</h6>
+                                <p>매직 슈퍼 가습기의 홍포 포스터를 제작했습니다.</p>
+                                <div>
+                                    ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(3)">
+                    <img src="img/work/work4.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_3">
+                                <h6>'GET OUT 영화포스터' 제작</h6>
+                                <p>영화 GET OUT의 영화포스터를 리디자인 했습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work_box">
+                <div class="wrap_work" onclick="openModal();currentSlide(4)">
+                    <img src="img/work/work2.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_4">
+                                <h6>'미비포유' 영화포스터 제작</h6>
+                                <p>영화 '미비포유'의 영화포스터를 리디자인 했습니다.</p>
+
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(5)">
+                    <img src="img/work/work9.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt  w_t_5">
+                                <h6>'2020 신년카드' 이미지 제작</h6>
+                                <p>2020년 쥐띠의 해를 맞이하여, 신년카드 이미지물을 제작했습니다.</p> 
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(6)">
+                    <img src="img/work/work3.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_6">
+                                <h6>'비즈니스 &amp; 디자인 일러스트' 제작</h6>
+                                <p>비즈니스 &amp; 디자인 일러스트 이미지를 제작했습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work_box">
+                <div class="wrap_work" onclick="openModal();currentSlide(7)">
+                    <img src="img/work/work5.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_7">
+                                <h6>'봄 일러스트 이미지' 제작</h6>
+                                <p>봄 일러스트 이미지를 제작했습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(8)">
+                    <img src="img/work/work1.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_8">
+                                <h6>'연말 파티 이벤트' 페이지 제작</h6>
+                                <p>가상의 브랜드를 지정하여 연말파티 이벤트의 이벤트페이지, 배너, 정사각 이미지를 디자인하였습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap_work" onclick="openModal();currentSlide(9)">
+                    <img src="img/work/work8.PNG">
+                    <div class="work_hover">
+                        <div class="work_hover_con">
+                           <div class="work_txt w_t_9">
+                                <h6>'삼성 스마트 에어컨' 포스터 제작</h6>
+                                <p>삼성브랜드의 스마트 에어컨 홍포 포스터를 제작했습니다.</p>
+                                <div>
+                                   ZOOM
+                                   <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <div class="blank">
+            <div class="arrow">
+                <img src="img/icon_arrow.PNG">
+            </div>
+    </div>
+    <div class="clear"></div>
+        
+        
+    <!--project-->
+    <section class="project" id="project">
+        <h2 class="titlename fadein2">WEB PROJECT</h2>
+        <article class="fadein2">
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_burtsbee.png">
+                    <div class="web_hover">
+                       <a href="web_sub_burtsbee.html">
+                            <div class="web_txt">
+                                <h6>'버츠비' 웹페이지 리뉴얼</h6>
+                                <div>
+                                   <p>MORE</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_isoi.png">
+                    <div class="web_hover">
+                       <a href="web_sub_isoi.html">
+                            <div class="web_txt">
+                                <h6>'아이소이' 웹페이지 리뉴얼</h6>
+                                <div>
+                                   <p>MORE</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_pedro.PNG">
+                    <div class="web_hover">
+                       <a href="web_sub_wbt.html">
+                            <div class="web_txt">
+                                <h6>'키친페드로' 웹페이지 자체제작</h6>
+                                <div>
+                                   <p>MORE</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_nc.png">
+                    <div class="web_hover">
+                       <a href="web_sub_nc.html">
+                            <div class="web_txt">
+                                <h6>'NC소프트' 웹페이지 리뉴얼</h6>
+                                <div>
+                                   <p>MORE</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_domino.png">
+                    <div class="web_hover">
+                       <a href="http://dominogyuri.dothome.co.kr/" target="_blank">
+                            <div class="web_txt">
+                                <h6>'도미노피자' 웹페이지 카피</h6>
+                                <div>
+                                   <p>웹사이트 바로가기</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="webbox">
+                <div class="wrap_web">
+                    <img src="img/web/web_kyobo.png">
+                    <div class="web_hover">
+                       <a href="http://kyobogyuri.dothome.co.kr/" target="_blank">
+                            <div class="web_txt">
+                                <h6>'교보문구 스토리' 웹페이지 카피</h6>
+                                <div>
+                                   <p>웹사이트 바로가기</p>
+                                    <img src="img/icon_arrow_horizontal.PNG">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <div class="blank">
+            <div class="arrow">
+                <img src="img/icon_arrow.PNG">
+            </div>
+    </div>
+    <div class="clear"></div>
+
+    <!--contact-->
+    <div class="contact_back">
+    <section class="contact" id="contact">
+        <article>
+            <h2 class="titlename fadein2">CONTACT ME</h2>
+            <div class="contact_wrap fadein2">
+                <div>
+                    <h5>CALL<span>//</span></h5>
+                    <a href="tel:010-2126-2579"><p>010-2126-2579</p></a>
+                </div>
+                <div>
+                    <h5>MAIL<span>//</span></h5>
+                    <a href="mailto:fnffkdll@naver.com"><p>fnffkdll@naver.com</p></a>
+                </div>
+                <div>
+                    <h5>SNS <span> //</span></h5>
+                    <div class="sns_icon">
+                        <a href="https://open.kakao.com/o/swLxUkTb" target="_blank">
+                            <img src="img/kakao-talk.png">
+                        </a>
+                    </div>
+                    <div class="sns_icon">
+                        <a href="https://www.instagram.com/ggoolii_p/?hl=ko" target="_blank">
+                            <img src="img/instagram-logo.png">
+                        </a>
+                    </div>
+                    <div class="sns_icon">
+                        <a href="https://www.youtube.com/channel/UCALz4RR7-YMXg3Xp5gTYb6A/feed?view_as=subscriber" target="_blank">
+                            <img src="img/youtube.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    </div>
+        
+    </main>
+    <footer>
+        <address>
+            <p class="footer_con">
+               본 페이지는 포토폴리오용으로 제작되었습니다.<br>
+               Copyrights 2020 Gyuri All Rights Reserved.
+            </p>
+        </address>
+    </footer>
+    
+    <!-- script -->
+    <script src="js/index.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMDPGZPJK4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EMDPGZPJK4');
+    </script>
+</body>
+</html>

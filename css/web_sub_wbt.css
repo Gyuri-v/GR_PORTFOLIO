@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Noto+Sans+KR&display=swap');
+
+/*----------------------------------------------------------------brandname*/
+section.brandname{
+    width: 100%; height: 100vh;
+    background-color: black;
+    display: table;
+}
+section.brandname div.brandname_txt{
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+section.brandname div.brandname_txt h1{
+    font-size: 48px; 
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+}
+section.brandname div.brandname_txt h4{
+    font-size: 24px; 
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+}
+section.brandname div.brandname_txt p{
+    font-size: 16px; 
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: white;
+}
+/*----------------------------------------------------공통사항*/
+h1{
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+}
+h3{
+    font-size: 18px; 
+    font-weight: bold;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    letter-spacing: 1px;
+    text-align: center;
+}
+p.txt_con{
+    padding: 50px 0;
+    font-size: 16px; 
+    line-height: 2;
+    clear: both;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+strong{
+    font-weight: bold;
+    line-height: 36px;
+}
+article.content{
+    max-width: 960px; 
+    margin: 0 auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+main div.blank {
+    height: 150px;
+}
+/*---------------------------------------------------------------project_detail*/
+/*-----pc*/
+section.project_detail{
+    width: 100%; height: auto;
+    background-color: white;
+}
+section.project_detail article.content div.pc_moniter{
+    width: 100%; height: 500px;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding: 40px; 
+    box-sizing: border-box;
+}
+section.project_detail article.content div.pc_moniter div.pc_moniter_web{
+    width: 100%; height: 100%;
+    background-color: black;
+    overflow: auto;
+    position: relative;
+}
+section.project_detail article.content div.pc_moniter div.pc_moniter_web img{
+    position: absolute;
+}
+
+section.project_detail article.content div.pc_bottom img{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: block;
+}
+/*-------txt*/
+
+section.project_detail article.content div.pro_det_txt_con{
+    width: 33.33%; height: 100px;
+    float: left;
+}
+
+section.project_detail article.content div h3{
+    margin: 0 25px;
+}
+section.project_detail article.content div div p{
+    font-size: 16px; 
+    line-height: 3;
+    margin: 0 25px;
+    text-align: center;
+}
+div.web_link{
+    text-align:center;
+}
+div.web_link a{
+    width: 200px; height: 50px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+div.web_link a:hover{
+    background-color: darkred;
+}
+/*---------------------------------------------------------------project_visual*/
+section.visual{
+    width: 100%; height: auto;
+    background-color: #e2e2e2;
+}
+section.visual div.visual_wrap>div{
+    padding-bottom: 100px;
+}
+/* color */
+section.visual div.color ul{
+    text-align: center;
+}
+section.visual div.color ul li{
+    padding: 50px 50px 0 ;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+section.visual div.color ul li div{
+    width: 100px; height: 100px;
+    border-radius: 50%;
+}
+section.visual div.color ul li div.color_1{
+    background-color: black;
+}
+section.visual div.color ul li div.color_2{
+    background-color: white;
+}
+section.visual div.color ul li div.color_3{
+    background-color: #a3171b;
+}
+section.visual div.color ul li div.color_4{
+    background-color: #808285;
+}
+/* typo */
+section.visual div.typo div{
+    width: 50%; height: 300px;
+    float: left;
+}
+section.visual div.typo div p.txt_con{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+section.visual div.typo div p{
+    text-align: center;
+}
+section.visual div.typo div p.font_notosans{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+section.visual div.typo div p.font_mavenpro{
+    font-family: 'Maven Pro', sans-serif;
+}
+/* logo */
+section.visual div.logo{
+    padding-bottom: 0;
+}
+section.visual div.logo div{
+    padding: 50px 0;
+}
+section.visual div.logo div img{
+    width: 24%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/*------------------------------------------------------------porject_change*/
+section.change{
+    width: 100%;
+    background-image: url(../img/about_background.png);
+    box-sizing: border-box;
+}
+section.change p.txt_con{
+    padding: 20px 0;
+}
+section.change p.txt_con a{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+section.change p.txt_con a:hover{
+    color: darkred;
+}
+section.change p.txt_con a:hover .bf_web_img{
+    margin-left: 15px;
+}
+section.change div.change_img{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+section.change div.change_img img{
+    width: 100%;
+}
+/*------------------------------------------------------------------mainpage*/
+section.mainpage article.content div.sub_wrap div.sub_img_wrap{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 0;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap>img{
+    width: 100%; 
+}
+section.mainpage div.member{
+    width: 300px; height: 80px;
+    padding: 10px 0;
+}
+div.member img{
+    height: 100%;
+}
+div.member div.mem_txt{
+    width: 200px; height: 80px;
+    float: right;
+    padding: 20px 0; 
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-size: 16px;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap{
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap:hover{
+    opacity: 100%;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap div.sub_hover{
+    width: 100%; height: 100%;
+    background-color: darkgray;
+    padding:  30px 20px;
+    box-sizing: border-box;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap div.s_h_g{
+    background-color: pink;
+}
+section.mainpage article.content div.sub_wrap div.sub_img_wrap div.s_h_g h3{
+    border-bottom: 5px solid #d64354;
+}
+section.mainpage article.content>p{
+    line-height: 3;
+    font-size: 16px;
+}
+.click{
+    font-size: 14px;
+    color: darkred;
+    display: none;
+}
+/*------------------------------------------------------반응형*/
+@media screen and (max-width:768px){
+    article.content{
+        padding: 100px 20px;
+    }
+    section.project_detail article.content div.pc_moniter {
+        height: 400px;
+        padding: 30px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p.txt_con{
+        font-size: 14px;
+    }
+    section.project_detail article.content div p{
+        font-size: 14px;
+    }
+    section.visual div.color ul li{
+        font-size: 14px;   
+        padding: 50px 80px 0;
+    }
+    section.visual div.color ul li div{
+        margin: 0 auto;
+    }
+    section.visual div.typo div{
+        width: 100%; height: 200px;
+        float: none;
+    }
+    section.visual div.typo div p.txt_con {
+        padding-top: 20px;
+    }
+    section.visual div.typo div.typo_kor{
+        height: 170px;
+    }
+    section.visual div.logo div {
+        padding: 50px;
+    }
+    section.visual div.logo div img {
+        width: 49%;
+        padding: 10px;
+    }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap{
+        width: 100%;
+        float: none;
+    }
+    .click{
+        display: inline-block;
+    }
+    div.member div.mem_txt{
+        font-size: 14px;
+    }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap{
+        opacity: 100%;
+        display: none;
+    }
+}
+@media screen and (max-width:655px){
+    section.brandname div.brandname_txt h1{
+        font-size: 24px;
+    }
+    section.brandname div.brandname_txt h4 {
+        font-size: 16px;
+    }
+    section.brandname div.brandname_txt p {
+        font-size: 14px;
+    }
+    section.project_detail article.content div.pc_moniter {
+        height: 300px;
+        padding: 25px;
+    }
+    section.project_detail article.content div.pro_det_txt_con {
+        width: 60%;
+        height: 100px;
+        float: none;
+        margin: 0 auto;
+    }
+    section.visual div.logo div {
+        padding: 20px;
+    }
+    section.visual div.color ul li{
+        width: 50%; 
+        float: left;
+        padding: 20px 0 0 0 ;
+        box-sizing: border-box;   
+    }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover_wrap{
+        opacity: 100%;
+        display: none;
+    }
+}
+@media screen and (max-width:480px){
+    article.content{
+        padding: 50px 10px;
+    }
+    section.project_detail article.content div.pc_moniter {
+        height: 220px;
+        padding: 20px;
+    }
+    section.project_detail article.content div.pro_det_txt_con {
+        width: 80%;
+    }
+    section.visual div.logo div {
+        padding: 10px;
+    }
+    section.change div.change_img {
+        width: 100%;
+    }
+    section.mainpage article.content div.sub_wrap div.sub_img_wrap div.sub_hover {
+        padding: 10px 20px;
+    }
+}
