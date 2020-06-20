@@ -28,7 +28,7 @@ section.project_detail article.content div.pc_bottom img{ width: 50%; margin: 0 
 /*project_detail_txt*/
 section.project_detail article.content div.pro_det_txt_con{ width: 33.33%; height: 100px; float: left; }
 section.project_detail article.content div.pro_det_txt_con h3{ margin: 0 25px; }
-section.project_detail article.content div.pro_det_txt_con div p{ font-size: 16px;  line-height: 3; margin: 0 25px; text-align: center; }
+section.project_detail article.content div.pro_det_txt_con p{ font-size: 16px;  line-height: 3; margin: 0 25px; text-align: center; }
 
 div.web_link{ text-align:center; }
 div.web_link a{ width: 200px; height: 50px; display: inline-block; background-color: #FCBE44; color: white; text-align: center; line-height: 50px; }
